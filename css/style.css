@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Leelawadee UI';
+    font-weight: 300; */
+}
+
+body{
+    background-color: cadetblue;
+}
+
+.container {
+    position: fixed;
+    top: 0%;
+    left: 25%;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    background-color: aqua;
+}
+
+form{
+    width: 20%;
+    height: 50%;
+    position: fixed;
+    top: 25%;
+    left: 40%;
+    /* margin: 10%; */
+    display: flex;
+    flex-direction: column;
+}
+
+.email{
+    margin-bottom: 5%;
+}
+
+input{
+    width: 100%;
+    height: 100%;
+    padding: 3%;
+}
+
+.button-login{
+    background-color: rgb(255, 0, 0);
+    border: none;
+    box-shadow: 3px 3px 6px  rgba(0, 0, 0, 0.2), 0 0px 40px  rgba(0, 0, 0, 0.1);
+    color: #fff;
+    text-align: center;
+    padding: 5%;
+    margin: 10%;
+}
